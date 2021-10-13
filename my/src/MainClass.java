@@ -3,6 +3,6 @@ public class MainClass {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();
-        System.out.println(N % 10 + N / 100 + ((N / 10) % 10));
+        System.out.println((N + 2) - N % 2);
     }
 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt(), b = in.nextInt(), c = in.nextInt();
-        System.out.println((a % 2 == 0 && b % 2 == 0) || (a % 2 == 0 && c % 2 == 0) || (b % 2 == 0 && c % 2 == 0));
+        float a = in.nextFloat(), b = in.nextFloat();
+        System.out.println(a * a + b * b > 4 && b < a && a < 2 ? "YES":  "NO");
     }
 }
